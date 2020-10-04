@@ -1,7 +1,7 @@
 ---
 title: Disentangled Embeddings
 author: Sean
-date: 2020-10-04 00:34:00 +0800
+date: 2020-10-04 18:00:00 +0800
 categories: [Blogging,Report]
 tags: [Disentangled]
 ---
