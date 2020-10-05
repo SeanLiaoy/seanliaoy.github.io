@@ -1,5 +1,5 @@
 ---
-title: Disentangled Embeddings
+title: 【Progess Report】Disentangled Embeddings
 author: Sean
 date: 2020-10-04 18:00:00 +0800
 categories: [Blogging,Report]
