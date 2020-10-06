@@ -13,17 +13,20 @@ tags: [Disentangled]
 
 (ICLR 2019) Disentangled Graph Convolutional Networks
 
-Link: http://proceedings.mlr.press/v97/ma19a/ma19a.pdf
+Link: 
+> http://proceedings.mlr.press/v97/ma19a/ma19a.pdf
 
-Code: https://github.com/THUDM/cogdl
+Code: 
 
-Note: 这篇文章的写作浅显易懂，很适合入门参考，EM算法部分
+> https://github.com/THUDM/cogdl
+
+Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是怎么套用EM算法部分
 
 (ACL 2020) Graph Neural News Recommendation with Unsupervised Preference Disentanglement
 
 Link: https://www.aclweb.org/anthology/2020.acl-main.392/
 
-Summary: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开源。
+Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开源。
 
 
 (SIGIR 2020) Disentangled Graph Collaborative Filtering
