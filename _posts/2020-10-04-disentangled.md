@@ -12,8 +12,12 @@ tags: [Disentangled]
  (NeurIPS 2018), Learning Deep Disentangled Embeddings With the F-Statistic Loss
 
 (ICLR 2019) Disentangled Graph Convolutional Networks
-Summary: 
+
 Link: http://proceedings.mlr.press/v97/ma19a/ma19a.pdf
+
+Code: https://github.com/THUDM/cogdl
+
+Note: 这篇文章的写作浅显易懂，很适合入门参考，EM算法部分
 
 (ACL 2020) Graph Neural News Recommendation with Unsupervised Preference Disentanglement
 
