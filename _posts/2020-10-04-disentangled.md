@@ -29,10 +29,20 @@ Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开�
 
 [Link](https://dl.acm.org/doi/abs/10.1145/3397271.3401137)
 
+[Code](https://github.com/xiangwang1223/disentangled_graph_collaborative_filtering)
+
+
 
 (arixiv 2019) Disentangled State Space Representations
 
 [Link](https://arxiv.org/abs/1906.03255)
+
+Note:
+
+
+(ICML 2018) Disentangled Sequential Autoencoder
+[Link](http://proceedings.mlr.press/v80/yingzhen18a.html)
+
 
 
 
