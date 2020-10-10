@@ -22,7 +22,7 @@ DisenGCN：首先预设得到的 Disentangled Embeddings包含K个独立的Facto
 ![Iteration of routing](https://i.loli.net/2020/10/10/15ZHuRfiObrvz2J.png)
 
 
-Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是可以学习下套用EM算法部分
+Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是可以学习下套用EM算法部分。
 
 
 (ACL 2020) Graph Neural News Recommendation with Unsupervised Preference Disentanglement
