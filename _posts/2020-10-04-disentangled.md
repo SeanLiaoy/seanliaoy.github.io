@@ -12,9 +12,7 @@ math: true
 
  (NeurIPS 2018) Learning Deep Disentangled Embeddings With the F-Statistic Loss
 
-(ICLR 2019) Disentangled Graph Convolutional Networks
-
-[Link](http://proceedings.mlr.press/v97/ma19a/ma19a.pdf)
+(ICLR 2019) [Disentangled Graph Convolutional Networks](http://proceedings.mlr.press/v97/ma19a/ma19a.pdf)
 
 [Code](https://github.com/THUDM/cogdl)
 
@@ -30,16 +28,12 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是可以学习下套用EM算法部分。
 
 
-(ACL 2020) Graph Neural News Recommendation with Unsupervised Preference Disentanglement
-
-[Link](https://www.aclweb.org/anthology/2020.acl-main.392/)
+(ACL 2020) [Graph Neural News Recommendation with Unsupervised Preference Disentanglement](https://www.aclweb.org/anthology/2020.acl-main.392/)
 
 Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开源。
 
 
-(SIGIR 2020) Disentangled Graph Collaborative Filtering
-
-[Link](https://dl.acm.org/doi/abs/10.1145/3397271.3401137)
+(SIGIR 2020) [Disentangled Graph Collaborative Filtering](https://dl.acm.org/doi/abs/10.1145/3397271.3401137)
 
 [Code](https://github.com/xiangwang1223/disentangled_graph_collaborative_filtering)
 
@@ -50,16 +44,12 @@ Summary:
 
 
 
-(arixiv 2019) Disentangled State Space Representations
-
-[Link](https://arxiv.org/abs/1906.03255)
+(arixiv 2019) [Disentangled State Space Representationsk](https://arxiv.org/abs/1906.03255)
 
 Note:
 
 
-(ICML 2018) Disentangled Sequential Autoencoder
-
-[Link](http://proceedings.mlr.press/v80/yingzhen18a.html)
+(ICML 2018)[Disentangled Sequential Autoencoder](http://proceedings.mlr.press/v80/yingzhen18a.html)
 
 
 
