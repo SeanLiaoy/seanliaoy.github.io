@@ -49,7 +49,7 @@ Summary:
 Note:
 
 
-(ICML 2018)[Disentangled Sequential Autoencoder](http://proceedings.mlr.press/v80/yingzhen18a.html)
+(ICML 2018) [Disentangled Sequential Autoencoder](http://proceedings.mlr.press/v80/yingzhen18a.html)
 
 
 
