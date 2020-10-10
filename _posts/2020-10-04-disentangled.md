@@ -13,6 +13,7 @@ math: true
  (NeurIPS 2018), Learning Deep Disentangled Embeddings With the F-Statistic Loss
 
 (ICLR 2019) Disentangled Graph Convolutional Networks
+
 [Link](http://proceedings.mlr.press/v97/ma19a/ma19a.pdf)
 
 [Code](https://github.com/THUDM/cogdl)
