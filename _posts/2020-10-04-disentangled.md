@@ -4,6 +4,7 @@ author: Sean
 date: 2020-10-04 18:00:00 +0800
 categories: [Blogging,Report]
 tags: [Disentangled]
+math: true
 ---
 
 ### 论文集
