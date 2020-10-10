@@ -10,7 +10,7 @@ math: true
 ### 论文集
 
 
- (NeurIPS 2018) Learning Deep Disentangled Embeddings With the F-Statistic Loss
+ (NeurIPS 2018) Learning Deep Disentangled Embeddings With the F-Statistic Los
 
 (ICLR 2019) Disentangled Graph Convolutional Networks
 
