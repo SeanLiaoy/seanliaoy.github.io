@@ -18,6 +18,10 @@ tags: [Disentangled]
 
 Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是怎么套用EM算法部分
 
+DisenGCN：首先预设得到的 Disentangled Embeddings包含K个独立的Factor，那么得到的节点embedding可以表示为
+
+
+
 
 
 (ACL 2020) Graph Neural News Recommendation with Unsupervised Preference Disentanglement
@@ -34,7 +38,7 @@ Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开�
 [Code](https://github.com/xiangwang1223/disentangled_graph_collaborative_filtering)
 
 Note: 
-![Framework](./images/1602321928813.png)
+![Framework](./images/1602322347979.png)
 
 Summary: 
 
