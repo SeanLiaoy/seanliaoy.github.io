@@ -18,7 +18,9 @@ math: true
 
 [Code](https://github.com/THUDM/cogdl)
 
-DisenGCN：首先预设得到的 Disentangled Embeddings包含K个独立的Factor，那么得到的节点embedding可以表示为 \\( \mathbf{y}_u = [c_1, c_2, ..., c_K] \\) 。
+DisenGCN：首先预设得到的 Disentangled Embeddings包含K个独立的Factor，那么得到的节点embedding可以表示为
+$$ \mathbf{y}_{u} = [c_1, c_2, ..., c_K] $$
+
 首先计算 \\(z_k\\) 为 节点特征\\(x_i\\)乘以\\(W_k\\)得到的不同子空间的投影，然后再利用迭代算法，对节点u的每个邻接节点v，计算factor k是节点u,v之间连接原因的概率\\(p_{v, k} \\) ，根据这个概率对节点u的\\(c_k\\)进行更新。
 
 ![Iteration of routing](https://i.loli.net/2020/10/10/15ZHuRfiObrvz2J.png)
