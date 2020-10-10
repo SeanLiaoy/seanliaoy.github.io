@@ -18,7 +18,8 @@ tags: [Disentangled]
 
 Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是怎么套用EM算法部分
 
-DisenGCN：首先预设得到的 Disentangled Embeddings包含K个独立的Factor，那么得到的节点embedding可以表示为
+DisenGCN：首先预设得到的 Disentangled Embeddings包含K个独立的Factor，那么得到的节点embedding可以表示为`!$ \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $`
+
 
 
 
