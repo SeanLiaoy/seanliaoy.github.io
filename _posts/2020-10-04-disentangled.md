@@ -78,7 +78,7 @@ Disentangled很适合用来做dynamic embedding
 
 1.  (**Disentangle + dynamic graph embedding**) 简单且直观的一个思路，我们可以认为不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，每种兴趣都会导致用户购买不同的商品，可以直接对每个factor建立不同参数的transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。暂时没看到有人做。
 
-**TODO**: transfer distribution怎么定义，用什么模型，要有故事讲，最简单的方式可以为每个facor定义一个不同参数的transfer function。
+**TODO**: transfer distribution怎么定义，用什么模型，最简单的方式可以为每个facor定义一个不同参数的transfer function，这部分最好要有故事讲。
 
 
 2. (**Disentangle + dynamic graph + TPP**) 也是一种很简单粗暴的思路，比如用Hawkes Process，获取Disentanglement embedding后计算intensity，直接对不同factor的embedding赋予一个权值即可，直观上理解的话就是不同的因素(即embedding的每个部分)，对造成一个事件在t时刻发生的概率的贡献是不一样的。
