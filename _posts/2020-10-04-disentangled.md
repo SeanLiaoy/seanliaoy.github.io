@@ -52,18 +52,23 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
 ![Framework](https://i.loli.net/2020/10/10/HLquIXiGyZsK2NT.png)
 
-
 **Note**:  文章提到了这种方法与Multi-head Attention Network的关系，确实这种对embedding划分来区别重要性的方式有点像是一种Attention机制，可以学习下作者的论述3.4.4。
 
 
+### 知识图谱相关论文
+(Arxiv 2020, Wechat AI)【Disentangled + Lifelong learning + Knowledge graph】 [**Disentangle-based Continual Graph Representation Learning**](https://arxiv.org/abs/2010.02565)
 
 
-### VAE相关论文，重要性较低
+
+### VAE相关论文，主要是用在视频数据集上
+
+(ICML 2020) [**Disentangled Representations for Sequence Data using Information Bottleneck Principle**](http://proceedings.mlr.press/v129/yamada20a.html)
+
+(ICML 2018) [**Disentangled Sequential Autoencoder**](http://proceedings.mlr.press/v80/yingzhen18a.html)
 
 (arixiv 2019) [**Disentangled State Space Representationsk**](https://arxiv.org/abs/1906.03255)
 
 
-(ICML 2018) [**Disentangled Sequential Autoencoder**](http://proceedings.mlr.press/v80/yingzhen18a.html)
 
 
 
@@ -71,7 +76,7 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
 Disentangled很适合用来做dynamic embedding
 
-1.  (**简单的思路**) 不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，可以直接建立多个transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。
+1.  (**简单的思路**) 不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，可以直接建立多个transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。时序推荐系统暂时没看到有人做。
 
 **TODO**: transfer distribution怎么定义，用什么模型，最简单的方式可以为每个facor定义一个不同参数的transfer function。
 
