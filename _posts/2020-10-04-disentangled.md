@@ -80,6 +80,14 @@ Disentangled很适合用来做dynamic embedding
 
 **TODO**: transfer distribution怎么定义，用什么模型，最简单的方式可以为每个facor定义一个不同参数的transfer function。
 
+### 实现参考
+https://github.com/amy-deng/DynamicGCN
+
+
 2. (**Disentanglement + dynamic graph + TPP**) 也是一种很简单粗暴的思路，比如用Hawkes Process，获取Disentanglement embedding后计算intensity，直接对不同factor的embedding赋予一个权值即可，直观上理解的话就是不同的因素(即embedding的每个部分)，对造成一个事件在t时刻发生的概率的贡献是不一样的。
 
 3.（**思路不够清晰**）有监督Disentangled。
+
+
+
+
