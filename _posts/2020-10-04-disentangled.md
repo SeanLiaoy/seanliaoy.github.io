@@ -32,7 +32,13 @@ Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是可�
 
 Background : 给定一个user-news的历史交互集合\\( { (u, d) } \\)，模型的目标是预测一个user是否会点击某个他以前没有见过的新闻d。 其中新闻文章 \\(d \\) 包含标题 \\( T \\)  以及profile \\( P \\) （即该新闻的关键词集合，带关键词的类型标注，如人名-person）。
 
-Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开源。
+Model: 假设user的click behaviors是由不同的latent preference factors造成的，定义用户u和新闻d的disentangled representations \\( \mathbf{y_u} \\)和 \\( \mathbf{y}_d \\) 。
+
+![GNUD](https://i.loli.net/2020/10/11/rcRbQSG6wFizxtp.png)
+
+因为数据集包含user点击news和news被多个users点击两种数据，所以相当于是个bipartite graph。 对于\\( \mathbf{y_u} \\)和 \\( \mathbf{y}_d \\) 的学习过程基本上都是跟DisenGCN一样的。
+
+Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开源。数据集可下载。
 
 
 (SIGIR 2020) [Disentangled Graph Collaborative Filtering](https://dl.acm.org/doi/abs/10.1145/3397271.3401137)
