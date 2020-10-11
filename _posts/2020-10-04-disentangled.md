@@ -45,7 +45,7 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
 [Code](https://github.com/xiangwang1223/disentangled_graph_collaborative_filtering)
 
-**Background**: 给定users集合 \\( {u} \\) ，Items集合 \\( {i} \\)和交互集合 \\( {y_{ui}} \\)，CF的目的是预测\\( u \\)购买\\( i \\)的可能性 \\( \hat{y_{ui}} \\)。本文的思路是假设有k个因素会对用户购买商品造成影响，每个因素都有一个使得用户u购买商品i的概率表示，通过做disentangled，可以对商品推荐结果背后的影响因素进行分析，提高推荐模型的可解释性。
+**Background**: 给定users集合 \\( {u} \\) ，Items集合 \\( {i} \\)和交互集合 \\( {y_{ui}} \\)，CF的目的是预测\\( u \\)购买\\( i \\)的可能性 \\( \hat{y_{ui}} \\)。本文的思路是假设有k个因素会对用户购买商品造成不同影响，通过做disentangled，可以对商品推荐结果背后的影响因素进行分析，提高推荐模型的可解释性。
 
 **Model**:  将embedding分为K块，定义 \\( S_k(u, i) \\)来表示intent k下user和item的交互概率， 初始化为1。公式(8)用来描述哪个intent对(u, i)的结果贡献更大，然后通过weighted sum aggregator来得到user对于factor k的representation \\( \mathbf{u}_k \\)。
 通过与前两篇相似的迭代更新规则，模型得到每个intent下u,i交互的概率S以及用户的disentangled representation \\(e_{ku} \\)。
@@ -53,7 +53,7 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 ![Framework](https://i.loli.net/2020/10/10/HLquIXiGyZsK2NT.png)
 
 
-**Note**: 
+**Note**:  文章提到了这种方法与Multi-head Attention Network的关系，确实这种对embedding划分来区别重要性的方式有点像是一种Attention机制，可以学习下作者的论述3.4.4。
 
 
 (arixiv 2019) [Disentangled State Space Representationsk](https://arxiv.org/abs/1906.03255)
