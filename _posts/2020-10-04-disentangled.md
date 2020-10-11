@@ -76,8 +76,10 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
 Disentangled很适合用来做dynamic embedding
 
-1.  (**简单的思路**) 不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，可以直接建立多个transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。动态图和时序推荐系统暂时没看到有人做。
+1.  (**Disentanglement + dynamic graph embedding**) 不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，可以直接建立多个transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。动态图和时序推荐系统暂时没看到有人做。
 
 **TODO**: transfer distribution怎么定义，用什么模型，最简单的方式可以为每个facor定义一个不同参数的transfer function。
 
-2. （**思路不够清晰**）有监督Disentangled，提高可解释性。
+2. (**Disentanglement + dynamic graph + TPP**) 也是一种很简单粗暴的思路，比如用Hawkes Process，获取Disentanglement embedding后计算intensity，直接对不同factor的embedding赋予一个权值即可，直观上理解的话就是不同的因素(即embedding的每个部分)，对造成一个事件在t时刻发生的概率的贡献是不一样的。
+
+3.（**思路不够清晰**）有监督Disentangled，提高可解释性。
