@@ -71,6 +71,6 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
 Disentangled很适合用来做dynamic embedding
 
-1. 一个简单的思路，不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，可以直接建立多个transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。
+1.  (** * **)一个简单的思路，不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，可以直接建立多个transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。
 
-2. time embedding模型的改进，能否将temporal information作为其中一个factor？从而能以一种无监督的方式获取time-vary embedding，对相邻时间的embedding相似度进行建模，比如，一个节点的邻居节点和发生变化时，如果采用传统的SSM模型，他不应该是所有的embedding dim都发生Transfer的，如果能做Disentangled，那么应该只有部分维度（部分相关的factor）发生transfer。
+2. （**思路不够清晰**）无监督time-vary embedding。比如时序知识图谱补全中，能不能不需要额外的学习时间的embedding，就能对中间某一时刻的缺失的fact进行补全。将temporal information作为其中一个factor，对相邻时间的embedding相似度进行建模，比如，一个节点的邻居节点和发生变化时他不应该是所有的embedding dim都发生Transfer的，如果能做Disentangled，那么应该只有部分维度（部分相关的factor）发生transfer。
