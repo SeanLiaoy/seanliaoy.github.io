@@ -45,7 +45,12 @@ Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开�
 
 [Code](https://github.com/xiangwang1223/disentangled_graph_collaborative_filtering)
 
-Summary: 
+Background: 给定users集合 \\( {u} \\) ，Items集合 \\( {i} \\)和交互集合 \\( {y_{ui}} \\)，CF的目的是预测u购买i的可能性 \\( \hat{y_{ui}} \\)。
+
+Summary:
+
+
+
 ![Framework](https://i.loli.net/2020/10/10/HLquIXiGyZsK2NT.png)
 
 
