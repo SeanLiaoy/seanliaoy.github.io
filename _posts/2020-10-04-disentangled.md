@@ -60,10 +60,10 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
 ### VAE相关论文，重要性较低
 
-(arixiv 2019) [Disentangled State Space Representationsk](https://arxiv.org/abs/1906.03255)
+(arixiv 2019) [**Disentangled State Space Representationsk**](https://arxiv.org/abs/1906.03255)
 
 
-(ICML 2018) [Disentangled Sequential Autoencoder](http://proceedings.mlr.press/v80/yingzhen18a.html)
+(ICML 2018) [**Disentangled Sequential Autoencoder**](http://proceedings.mlr.press/v80/yingzhen18a.html)
 
 
 
