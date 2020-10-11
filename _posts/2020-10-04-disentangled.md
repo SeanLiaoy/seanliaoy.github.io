@@ -45,11 +45,11 @@ Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开�
 
 [Code](https://github.com/xiangwang1223/disentangled_graph_collaborative_filtering)
 
-Note: 
+Summary: 
 ![Framework](https://i.loli.net/2020/10/10/HLquIXiGyZsK2NT.png)
 
-Summary: 
 
+Note: 
 
 
 (arixiv 2019) [Disentangled State Space Representationsk](https://arxiv.org/abs/1906.03255)
