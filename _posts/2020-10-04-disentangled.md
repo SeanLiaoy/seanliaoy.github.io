@@ -56,9 +56,11 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 **Note**:  文章提到了这种方法与Multi-head Attention Network的关系，确实这种对embedding划分来区别重要性的方式有点像是一种Attention机制，可以学习下作者的论述3.4.4。
 
 
-(arixiv 2019) [Disentangled State Space Representationsk](https://arxiv.org/abs/1906.03255)
 
-Note:
+
+### VAE相关论文，重要性较低
+
+(arixiv 2019) [Disentangled State Space Representationsk](https://arxiv.org/abs/1906.03255)
 
 
 (ICML 2018) [Disentangled Sequential Autoencoder](http://proceedings.mlr.press/v80/yingzhen18a.html)
