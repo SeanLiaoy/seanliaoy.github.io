@@ -12,11 +12,11 @@ math: true
 
  (NeurIPS 2018) Learning Deep Disentangled Embeddings With the F-Statistic Loss
 
-(ICLR 2019) [Disentangled Graph Convolutional Networks](http://proceedings.mlr.press/v97/ma19a/ma19a.pdf)
+(ICLR 2019) [**Disentangled Graph Convolutional Networks**](http://proceedings.mlr.press/v97/ma19a/ma19a.pdf)
 
 [Code](https://github.com/THUDM/cogdl)
 
-DisenGCN：首先预设得到的 Disentangled Embeddings包含K个独立的Factor，那么得到的节点embedding可以表示为:
+**DisenGCN**：首先预设得到的 Disentangled Embeddings包含K个独立的Factor，那么得到的节点embedding可以表示为:
 
 $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
@@ -25,36 +25,36 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 ![Iteration of routing](https://i.loli.net/2020/10/10/15ZHuRfiObrvz2J.png)
 
 
-Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是可以学习下套用EM算法部分。
+**Note**: 这篇文章的写作浅显易懂，很适合入门参考，尤其是可以学习下套用EM算法部分。
 
 
-(ACL 2020) [Graph Neural News Recommendation with Unsupervised Preference Disentanglement](https://www.aclweb.org/anthology/2020.acl-main.392/)
+(ACL 2020) [**Graph Neural News Recommendation with Unsupervised Preference Disentanglement**](https://www.aclweb.org/anthology/2020.acl-main.392/)
 
-Background : 给定一个user-news的历史交互集合\\( { (u, d) } \\)，模型的目标是预测一个user是否会点击某个他以前没有见过的新闻d。 其中新闻文章 \\(d \\) 包含标题 \\( T \\)  以及profile \\( P \\) （即该新闻的关键词集合，带关键词的类型标注，如人名-person）。
+**Background** : 给定一个user-news的历史交互集合\\( { (u, d) } \\)，模型的目标是预测一个user是否会点击某个他以前没有见过的新闻d。 其中新闻文章 \\(d \\) 包含标题 \\( T \\)  以及profile \\( P \\) （即该新闻的关键词集合，带关键词的类型标注，如人名-person）。
 
-Model: 假设user的click behaviors是由不同的latent preference factors造成的，定义用户u和新闻d的disentangled representations \\( \mathbf{y_u} \\)和 \\( \mathbf{y}_d \\) 。
+**Model**: 假设user的click behaviors是由不同的latent preference factors造成的，定义用户u和新闻d的disentangled representations \\( \mathbf{y_u} \\)和 \\( \mathbf{y}_d \\) 。
 
 ![GNUD](https://i.loli.net/2020/10/11/rcRbQSG6wFizxtp.png)
 
 因为数据集包含user点击news和news被多个users点击两种数据，所以相当于是个bipartite graph。 对于\\( \mathbf{y_u} \\)和 \\( \mathbf{y}_d \\) 的学习过程基本上都是跟DisenGCN一样的。
 
-Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开源。数据集可下载。
+**Note**: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开源。数据集可下载。
 
 
-(SIGIR 2020) [Disentangled Graph Collaborative Filtering](https://dl.acm.org/doi/abs/10.1145/3397271.3401137)
+(SIGIR 2020) [**Disentangled Graph Collaborative Filtering**](https://dl.acm.org/doi/abs/10.1145/3397271.3401137)
 
 [Code](https://github.com/xiangwang1223/disentangled_graph_collaborative_filtering)
 
-Background: 给定users集合 \\( {u} \\) ，Items集合 \\( {i} \\)和交互集合 \\( {y_{ui}} \\)，CF的目的是预测\\( u \\)购买\\( i \\)的可能性 \\( \hat{y_{ui}} \\)。
+**Background**: 给定users集合 \\( {u} \\) ，Items集合 \\( {i} \\)和交互集合 \\( {y_{ui}} \\)，CF的目的是预测\\( u \\)购买\\( i \\)的可能性 \\( \hat{y_{ui}} \\)。
 
-Summary:
+**Model**: 
 
 
 
 ![Framework](https://i.loli.net/2020/10/10/HLquIXiGyZsK2NT.png)
 
 
-Note: 
+**Note**: 
 
 
 (arixiv 2019) [Disentangled State Space Representationsk](https://arxiv.org/abs/1906.03255)
