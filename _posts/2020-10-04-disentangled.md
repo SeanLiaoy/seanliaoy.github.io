@@ -56,7 +56,7 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
 
 ### 知识图谱相关论文
-(Arxiv 2020, Wechat AI)【Disentangled + Lifelong learning + Knowledge graph】 [**Disentangle-based Continual Graph Representation Learning**](https://arxiv.org/abs/2010.02565)
+(Arxiv 2020, Wechat AI)【Disentangle + Lifelong learning + Knowledge graph】 [**Disentangle-based Continual Graph Representation Learning**](https://arxiv.org/abs/2010.02565)
 
 
 
@@ -76,7 +76,7 @@ $$ \mathbf{y}_u = [ c_1, c_2, ..., c_K ] $$
 
 Disentangled很适合用来做dynamic embedding
 
-1.  (**Disentanglement + dynamic graph embedding**) 不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，每种兴趣都会导致用户购买不同的商品，可以直接建立多个transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。动态图和时序推荐系统暂时没看到有人做。
+1.  (**Disentangle + dynamic graph embedding**) 不同factor的embedding，随时间变化程度是不一样的，比如商品推荐中，用户可能存在长期兴趣，也可能存在短期兴趣，每种兴趣都会导致用户购买不同的商品，可以直接建立多个transfer distribution，结合DisenGCN，可以无监督地发现用户的长短期兴趣和对购买结果的影响。动态图和时序推荐系统暂时没看到有人做。
 
 **TODO**: transfer distribution怎么定义，用什么模型，最简单的方式可以为每个facor定义一个不同参数的transfer function。
 
