@@ -30,6 +30,8 @@ Note: 这篇文章的写作浅显易懂，很适合入门参考，尤其是可�
 
 (ACL 2020) [Graph Neural News Recommendation with Unsupervised Preference Disentanglement](https://www.aclweb.org/anthology/2020.acl-main.392/)
 
+Background : 给定一个user-news的历史交互集合\\( { (u, d) } \\)，模型的目标是预测一个user是否会点击某个他以前没有见过的新闻d。 其中新闻文章 \\(d \\) 包含标题 \\( T \\)  以及profile \\( P \\) （即该新闻的关键词集合，带关键词的类型标注，如人名-person）。
+
 Note: 模型跟上一篇基本一样，只是改到了新闻推荐中。未开源。
 
 
