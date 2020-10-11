@@ -89,5 +89,5 @@ Disentangled很适合用来做dynamic embedding
 
 
 
-### 备忘
+### 附录
 https://github.com/amy-deng/DynamicGCN
