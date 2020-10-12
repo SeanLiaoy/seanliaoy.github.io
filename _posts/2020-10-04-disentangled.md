@@ -82,8 +82,6 @@ Disentangled很适合用来做dynamic embedding
 
 2. (**Disentangle + dynamic graph + TPP**) 也是一种很简单粗暴的思路，比如用Hawkes Process，获取Disentanglement embedding后计算intensity，直接对不同factor的embedding对事件的激励求和即可，直观上理解的话就是不同的因素(即embedding的每个部分)，对造成一个事件在t时刻发生的概率的贡献是不一样的。
 
-3.（**思路不够清晰**）有监督Disentangled。
-
 
 
 
