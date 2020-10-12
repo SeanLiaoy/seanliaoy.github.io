@@ -90,3 +90,13 @@ Disentangled很适合用来做dynamic embedding
 
 ### 附录
 https://github.com/amy-deng/DynamicGCN
+
+
+
+**Product Search 相关论文**
+SIGIR 2020:
+Evolutionary Product Description Generation: A Dynamic Fine-Tuning Approach Leveraging User Click Behavior
+https://dl.acm.org/doi/abs/10.1145/3397271.3401140
+
+A Transformer-based Embedding Model for Personalized Product Search
+
